@@ -9,7 +9,7 @@ class CoordinatesButton extends React.Component {
   }
 
   click(event) {
-    array = [event.clientY, event.clientX];
+    const array = [event.clientY, event.clientX];
     this.props.onReceiveCoordinates(array);
   }
 
